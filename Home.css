@@ -1,0 +1,41 @@
+.home-container {
+  position: relative;
+  width: 100%;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.title span {
+  color: #ffc107; /* Highlight color */
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #f1f1f1;
+}
+
+.menu-button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #ffc107;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.menu-button:hover {
+  background-color: #e0a800;
+}
+
+.content {
+  background-color: white(215, 222, 222, 0.5); /* Slight shadow for readability */
+  padding: 30px;
+  border-radius: 10px;
+}
